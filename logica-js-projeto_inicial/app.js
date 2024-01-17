@@ -1,13 +1,14 @@
  alert('Boas vinda ao jogo do número secreto');
 
-let numeroSecreto = parseInt(Math.random() * 100 +1);
+ let numeroMaximo = 100;
+let numeroSecreto = parseInt(Math.random() * numeroMaximo +1);
 let chute;
 
 let tentativas = 1;
 
 
 while (chute != numeroSecreto){
-    chute = prompt('Digite o número entre 1 e 100');
+    chute = prompt('Digite o número entre 1 e ' + numeroMaximo);
     
     if(numeroSecreto == chute){
         break;
