@@ -30,13 +30,16 @@ footer {
     padding: 0;
 }
 .container{
-    margin:10%;
+    margin:10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .containe__conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     
 }
 
