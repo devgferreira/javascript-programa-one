@@ -57,6 +57,11 @@ body{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.container__conteudo__paragrafo a{
+    text-decoration: none;
+    color: #22D4FD;
+}
 .container__conteudo__links{
     display: flex;
     flex-direction: column;
