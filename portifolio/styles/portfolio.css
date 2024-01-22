@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+:root{
+    --cor--primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
 
 *{
     margin: 0;
@@ -7,8 +15,8 @@
 }
 body{
     box-sizing: border-box;
-    background-color: black;
-    color: #F6F6F6;
+    background-color: var(--cor--primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho{
@@ -21,17 +29,17 @@ body{
 }
 
 .cabecalho__menu__link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 600;
-    color: #22d4fd;
+    color: var(--cor-terciaria);
     text-decoration: none;
 
 
 }
 
 .container{
-    padding: 8% 15%;
+    padding: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,22 +53,22 @@ body{
 
 .container__conteudo__titulo{
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-principal);
 }
 
 .destaqueStrong{
-    color: #22d4fd;
+    color: var(--cor-terciaria);
 }
 
 
 .container__conteudo__paragrafo{
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 .container__conteudo__paragrafo a{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 .container__conteudo__links{
     display: flex;
@@ -71,7 +79,7 @@ body{
 }
 
 .container___conteudo__links_subtitulo{
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 24px;
 
@@ -86,9 +94,9 @@ body{
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid #22d4fd;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    border: 2px solid var(--cor-terciaria);
     gap: 16px;
     
 
@@ -102,9 +110,9 @@ body{
 .rodape{
     padding: 28px;
     color: #000000;
-    background-color: #22d4fd;
+    background-color: var(--cor-terciaria);
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
 
