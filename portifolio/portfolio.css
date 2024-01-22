@@ -68,6 +68,8 @@ footer {
 }
 
 .container__conteudo__links__link{
+    display: flex;
+    justify-content: center;
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -77,6 +79,8 @@ footer {
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid #22d4fd;
+    gap: 16px;
+    
 
 }
 
