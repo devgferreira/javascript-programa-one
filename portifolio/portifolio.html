@@ -3,23 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
     <title>Portfólio de Gabriel Ferreira Souto</title>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho"> 
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="portifolio.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
     <main class="container">
-        <section class="containe__conteudo">
-            <h1 class="containe__conteudo__titulo">Eleve seu <strong class="destaqueStrong">negócio digital a outro nível</strong></h1>
-            <p class="containe__conteudo__paragrafo">Gabriel Ferreira, Desenvolvedor Back-end </p>
-            <div class="containe__conteudo__links"> 
-                <a class="caontaine__conteudo__links__link" href="https://github.com/devgferreira">Github</a>
-                <a class="caontaine__conteudo__links__link" href="https://www.linkedin.com/in/gabriel-ferreira-souto/">linkedin</a>
+        <section class="container__conteudo">
+            <h1 class="container__conteudo__titulo">Eleve seu <strong class="destaqueStrong">negócio digital a outro nível</strong></h1>
+            <p class="container__conteudo__paragrafo">Gabriel Ferreira, Desenvolvedor Back-end </p>
+            <div class="container__conteudo__links"> 
+                <h2 class="container___conteudo__links_subtitulo">Acesse minhas redes:</h2>
+                <a class="container__conteudo__links__link" href="https://github.com/devgferreira">
+                    <img src="assets/github.png">
+                    Github</a>
+                <a class="container__conteudo__links__link" href="https://www.linkedin.com/in/gabriel-ferreira-souto/">
+                    <img src="assets/linkedin.png">
+                    linkedin</a>
             </div>
           
         </section>
-        <img  src="minha-foto.jpg" alt="Desenvolvedor">
+        <img  src="assets/minha-foto.png" alt="Desenvolvedor">
+        
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido pro Gabriel Ferreira Souto</p>
+    </footer>
 </body>
+
 </html>
