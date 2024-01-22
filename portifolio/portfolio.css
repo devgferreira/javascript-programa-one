@@ -35,7 +35,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
-.containe__conteudo{
+.container__conteudo{
     width: 615px;
     display: flex;
     flex-direction: column;
@@ -43,20 +43,20 @@ footer {
     
 }
 
-.containe__conteudo__titulo{
+.container__conteudo__titulo{
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
 
 }
-.containe__conteudo__paragrafo{
+.container__conteudo__paragrafo{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
-.containe__conteudo__links{
+.container__conteudo__links{
     display: flex;
     justify-content: space-between;
 }
-.caontaine__conteudo__links__link{
+.container__conteudo__links__link{
     background-color: #22d4fd;
     width: 280px;
     text-align: center;
