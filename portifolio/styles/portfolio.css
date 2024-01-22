@@ -20,7 +20,7 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0 0 15%;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu{
@@ -43,9 +43,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 .container__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -88,7 +89,7 @@ body{
 .container__conteudo__links__link{
     display: flex;
     justify-content: center;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -103,12 +104,12 @@ body{
 }
 
 .container__conteudo__links__link:hover{
-    cursor: pointer;
-    padding: 3%
+    background-color: #262626;
 }
 
 .container__imagem{
-
+    width: 50%;
+    height: 50%;
 }
 
 .rodape{
@@ -123,3 +124,19 @@ body{
 }
 
 
+@media(max-width: 1200px){
+    .cabecalho{
+        padding: 10%   
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .container{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .container__conteudo{
+        width: auto;
+    }
+    
+}
